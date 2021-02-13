@@ -5,8 +5,8 @@ public class Main {
     public static void main(String[] args) {
         byte a = -15;
         short b = 25;
-        int c = 5;
-        long d = -45;
+        int c = -5;
+        long d = 45;
 
         float e = 12.3f;
         double f = 25.13;
