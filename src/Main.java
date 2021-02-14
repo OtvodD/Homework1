@@ -56,10 +56,10 @@ public class Main {
     static void task5 (long d)
     {
         if (d >= 0){
-            System.out.println("Ответ на задание 5: Число положительное");
+            System.out.println("Ответ на задание 5: Число " + d + " положительное");
         }
         else {
-            System.out.println("Ответ на задание 5: Число отрицателное");
+            System.out.println("Ответ на задание 5: Число " + d + " отрицателное");
         }
 
     }
@@ -76,7 +76,7 @@ public class Main {
 
     static void task7(String name)
     {
-        System.out.println("Привет, " + name);
+        System.out.println("Привет, " + name + "!");
     }
 
 //  Задание № 8
