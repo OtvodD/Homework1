@@ -24,7 +24,9 @@ public class Main {
 
         task5(d);
 
-        task6(c);
+        boolean i =task6(c);
+
+        System.out.println("Ответ на задание 6: " + i);
 
         task7(name);
 
@@ -54,20 +56,20 @@ public class Main {
     static void task5 (long d)
     {
         if (d >= 0){
-            System.out.println("Ответ на здание 5: Число положительное");
+            System.out.println("Ответ на задание 5: Число положительное");
         }
         else {
-            System.out.println("Ответ на здание 5: Число отрицателное");
+            System.out.println("Ответ на задание 5: Число отрицателное");
         }
 
     }
 
 //  Задание № 6
 
-    static void task6(int c)
+    static boolean task6(int c)
     {
         boolean y = (c < 0);
-        System.out.println("Ответ на задание 6: " + y);
+        return (y);
     }
 
 //  Задание № 7
